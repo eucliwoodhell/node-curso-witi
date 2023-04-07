@@ -14,3 +14,9 @@ The JSNAD certification exam typically consists of a series of coding exercises 
 ability to write efficient, secure, and scalable Node.js applications. Upon successful completion of 
 the exam, candidates are awarded the JSNAD certification, which can be a valuable credential for demonstrating
 their expertise in Node.js development to potential employers or clients.
+
+## Scanning the JSNAD Certification
+
+´´´
+ NODE_DEBUG=http node scan/scan-server.js
+´´´
