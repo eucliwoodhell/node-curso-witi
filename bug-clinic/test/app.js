@@ -1,5 +1,7 @@
 module.exports = scenario;
 
+var test = require("tape");
+
 function scenario(t) {
   t.ok(isGreaterThanZero(Infinity), "Infinity is greater than 0");
   t.ok(isGreaterThanZero(1), "1 is greater than 0");
@@ -12,6 +14,8 @@ function scenario(t) {
   );
 
   function isGreaterThanZero(value) {
-    return value >= 0;
+    return value > 0;
   }
 }
+
+// scenario(test);

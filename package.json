@@ -22,6 +22,7 @@
     "jshint": "^2.13.6",
     "jstrace": "^0.3.0",
     "replify": "^1.2.0",
-    "replpad": "^0.14.1"
+    "replpad": "^0.14.1",
+    "stackup": "^1.0.2"
   }
 }
